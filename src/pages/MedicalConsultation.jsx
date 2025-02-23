@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 const MedicalConsultation = () => {
   // State to track whether to show doctors list
@@ -18,8 +16,6 @@ const MedicalConsultation = () => {
 
   return (
     <div className="bg-blue-50 min-h-screen flex flex-col">
-      {/* Header */}
-      <Header />
 
       {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-center p-8">
@@ -69,8 +65,6 @@ const MedicalConsultation = () => {
         )}
       </main>
 
-      {/* Footer */}
-      <Footer />
     </div>
   );
 };
