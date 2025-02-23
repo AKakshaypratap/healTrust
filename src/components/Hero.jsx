@@ -9,7 +9,7 @@ const Hero = () => {
           to life-saving treatments.
         </p>
         <div className="mt-6">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg mx-2">
+          <button className="bg-blue-600 hover:bg-[#3D8D7A] text-white px-6 py-3 rounded-md text-lg mx-2">
             Donate Now
           </button>
           <button className="bg-gray-800 text-white px-6 py-3 rounded-md text-lg mx-2">
