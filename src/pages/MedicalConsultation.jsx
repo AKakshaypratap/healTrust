@@ -26,7 +26,7 @@ const MedicalConsultation = () => {
           <div className="bg-white p-6 rounded-lg shadow-md w-80 text-center hover:shadow-lg transition">
             <h3 className="text-xl font-semibold text-gray-800">🤖 Via AI Consultation</h3>
             <p className="text-gray-600 mt-2">Get an instant diagnosis and treatment plan using AI.</p>
-            <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
+            <button className="mt-11 bg-[#3D8D7A] text-white px-4 py-2 rounded-md hover:bg-[#3D8D7A] transition">
               Consult Now
             </button>
           </div>
@@ -36,7 +36,7 @@ const MedicalConsultation = () => {
             <h3 className="text-xl font-semibold text-gray-800">🩺 Book Doctor Appointment</h3>
             <p className="text-gray-600 mt-2">Schedule a consultation with a verified doctor.</p>
             <button
-              className="mt-4 bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition"
+              className="mt-4 bg-[#3D8D7A] text-white px-4 py-2 rounded-md hover:bg-green-700 transition"
               onClick={() => setShowDoctors(!showDoctors)}
             >
               {showDoctors ? "Hide Doctors" : "Book Now"}
@@ -55,7 +55,7 @@ const MedicalConsultation = () => {
                   <p className="text-lg font-semibold text-gray-800">{doctor.name}</p>
                   <p className="text-gray-600">{doctor.specialty}</p>
                   <p className="text-gray-500">{doctor.experience} Experience</p>
-                  <button className="mt-3 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
+                  <button className="mt-3 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-[#3D8D7A] transition">
                     Book Appointment
                   </button>
                 </div>
