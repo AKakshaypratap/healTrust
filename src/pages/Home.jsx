@@ -6,6 +6,7 @@ const HomePage = () => {
   return (
     <div>
       <Hero />
+      <Feature />
       {/* Call to Action */}
       <section className="text-center py-12 bg-blue-600 text-white">
         <h2 className="text-2xl font-bold">Join Us in Saving Lives</h2>
@@ -21,7 +22,6 @@ const HomePage = () => {
           </button>
         </div>
       </section>
-      <Feature />
     </div>
   );
 };
